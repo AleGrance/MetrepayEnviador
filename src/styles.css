@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Textos
+.color-1 {
+  color: #ebedef;
+}
+.color-2 {
+  color: #d6dbdf;
+}*/
+/* Form de elementos
+.color-3 {
+  background-color: #202c33;
+}*/
+/* Headers backgound
+.color-4 {
+  background-color: #202c33;
+}*/
+/* Text area background
+.color-5 {
+  background-color: #2a3942;
+  border-color: #2a3942;
+  color: #ebedef;
+  border-radius: 4px;
+  resize: none;
+}*/
+/* Body background
+.color-6 {
+  background-color: #111b21;
+}*/
+
+/* Text ara focus */
+textarea:focus {
+  outline: none !important;
+  border-color: #2a3942;
+}
+
+/* Scrollbar style */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
